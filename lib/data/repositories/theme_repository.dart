@@ -54,6 +54,13 @@ class ThemeRepository {
     return _joinDailyTheme(row!);
   }
 
+  /// deletedAt IS NULLのもののみ返す。記録画面でお題タグを表示する用途。
+  Future<DailyTheme?> findById(int dailyThemeId) async {
+    final row = await _db.themeDao.findDailyThemeById(dailyThemeId);
+    if (row == null) return null;
+    return _joinDailyTheme(row);
+  }
+
   /// [asOf]から遡って直近days日間に選定されたcatalogIdの一覧（ThemeSelectorの重複除外に使用）。
   Future<List<int>> fetchRecentCatalogIds({
     int days = 7,

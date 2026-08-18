@@ -41,6 +41,13 @@ class ThemeDao extends DatabaseAccessor<AppDatabase> with _$ThemeDaoMixin {
     return into(dailyThemes).insert(entry);
   }
 
+  /// deletedAt IS NULLのもののみ返す。
+  Future<DailyThemeRow?> findDailyThemeById(int id) {
+    return (select(
+      dailyThemes,
+    )..where((t) => t.id.equals(id) & t.deletedAt.isNull())).getSingleOrNull();
+  }
+
   /// [asOf]から遡って直近[days]日間に選定されたcatalogIdの一覧（重複除外用）。
   Future<List<int>> fetchRecentCatalogIds({
     required int days,
