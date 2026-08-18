@@ -20,6 +20,20 @@ class ExportService {
   /// 全entries・daily_themesをJSON化し、参照する画像ファイルとともにアーカイブを作成し、
   /// share_plusでOS標準の共有シートを開く。論理削除済み（deletedAt != null）のレコードは含めない。
   Future<void> exportAndShare() async {
+    final tempDir = await getTemporaryDirectory();
+    final zipFile = await buildArchive(tempDir);
+
+    await SharePlus.instance.share(
+      ShareParams(
+        files: [XFile(zipFile.path)],
+        text: 'そぞろいろ の記録データ',
+      ),
+    );
+  }
+
+  /// エクスポートアーカイブ（zip）を[outputDir]配下に作成し、そのFileを返す。
+  /// share_plus呼び出しを含まないため単体テスト可能。
+  Future<File> buildArchive(Directory outputDir) async {
     // watchTimeline()はdeletedAt IS NULLのみを対象にしたStream（entry_dao参照）。
     final entries = await _entryRepository.watchTimeline().first;
     final dailyThemes = await _fetchAllDailyThemes();
@@ -52,7 +66,6 @@ class ExportService {
         )
         .toList();
 
-    final tempDir = await getTemporaryDirectory();
     final archive = Archive();
 
     final jsonBytes = utf8.encode(
@@ -82,18 +95,12 @@ class ExportService {
     final zipData = ZipEncoder().encode(archive);
     final zipFile = File(
       p.join(
-        tempDir.path,
+        outputDir.path,
         'sozoroiro_export_${DateTime.now().millisecondsSinceEpoch}.zip',
       ),
     );
     await zipFile.writeAsBytes(zipData);
-
-    await SharePlus.instance.share(
-      ShareParams(
-        files: [XFile(zipFile.path)],
-        text: 'そぞろいろ の記録データ',
-      ),
-    );
+    return zipFile;
   }
 
   Future<List<DailyTheme>> _fetchAllDailyThemes() async {
