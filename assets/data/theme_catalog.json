@@ -1,0 +1,485 @@
+[
+  {
+    "catalogKey": "spring-01",
+    "name": "桜のつぼみの薄紅",
+    "colorHex": "#F3C6CE",
+    "seasonTags": ["spring"],
+    "weatherTags": ["sunny"],
+    "poeticPhrases": [
+      "ほころびかけた花の色を探して",
+      "まだ開ききらない、そのくらいの色"
+    ]
+  },
+  {
+    "catalogKey": "spring-02",
+    "name": "菜の花畑の黄色",
+    "colorHex": "#F4D35E",
+    "seasonTags": ["spring"],
+    "weatherTags": ["sunny"],
+    "poeticPhrases": ["日差しを集めたような黄色を", "畑の縁にひろがる明るさ"]
+  },
+  {
+    "catalogKey": "spring-03",
+    "name": "春霞にけむる山の色",
+    "colorHex": "#B9C4C9",
+    "seasonTags": ["spring"],
+    "weatherTags": ["fog"],
+    "poeticPhrases": ["輪郭がやわらかく溶ける色を", "遠くの山がぼんやり見える距離で"]
+  },
+  {
+    "catalogKey": "spring-04",
+    "name": "若葉の萌黄色",
+    "colorHex": "#A8C97F",
+    "seasonTags": ["spring"],
+    "weatherTags": [],
+    "poeticPhrases": ["芽吹いたばかりの、力の抜けた緑を", "新しい葉のやわらかい手触りの色"]
+  },
+  {
+    "catalogKey": "spring-05",
+    "name": "春雨に濡れた土の色",
+    "colorHex": "#7A5C4F",
+    "seasonTags": ["spring"],
+    "weatherTags": ["rain"],
+    "poeticPhrases": ["しっとりと湿った地面の色を", "雨あがりを待たなくてもいい、今の色"]
+  },
+  {
+    "catalogKey": "spring-06",
+    "name": "花冷えの空の色",
+    "colorHex": "#C7D3DD",
+    "seasonTags": ["spring"],
+    "weatherTags": ["cloudy"],
+    "poeticPhrases": ["少し肌寒い日の、白っぽい空の色を", "厚着したくなる曇り空の色"]
+  },
+  {
+    "catalogKey": "spring-07",
+    "name": "たんぽぽの綿毛の白",
+    "colorHex": "#F5F1E6",
+    "seasonTags": ["spring"],
+    "weatherTags": [],
+    "poeticPhrases": ["ふわりと飛んでいきそうな白を", "触れたら壊れそうな軽さの色"]
+  },
+  {
+    "catalogKey": "spring-08",
+    "name": "春の潮風の水色",
+    "colorHex": "#A9D6D0",
+    "seasonTags": ["spring"],
+    "weatherTags": ["sunny"],
+    "poeticPhrases": ["海沿いを歩くときに見つかる色を", "少し塩気のある空気の色"]
+  },
+  {
+    "catalogKey": "spring-09",
+    "name": "桃の花の淡い色",
+    "colorHex": "#EBB6C2",
+    "seasonTags": ["spring"],
+    "weatherTags": [],
+    "poeticPhrases": ["主張しすぎない、控えめな紅色を", "枝先にちいさく灯る色"]
+  },
+  {
+    "catalogKey": "spring-10",
+    "name": "新緑の風の色",
+    "colorHex": "#8FC17A",
+    "seasonTags": ["spring"],
+    "weatherTags": ["sunny"],
+    "poeticPhrases": ["吹き抜ける風に揺れる葉の色を", "光を透かした緑のきらめき"]
+  },
+  {
+    "catalogKey": "spring-11",
+    "name": "春雷が去った空の色",
+    "colorHex": "#7C8DA6",
+    "seasonTags": ["spring"],
+    "weatherTags": ["thunder"],
+    "poeticPhrases": ["ひと雨あとの、洗われたような空の色を", "遠くでまだ低く響く空の色"]
+  },
+  {
+    "catalogKey": "spring-12",
+    "name": "花筏が流れる川の色",
+    "colorHex": "#CDE0E8",
+    "seasonTags": ["spring"],
+    "weatherTags": [],
+    "poeticPhrases": ["花びらを浮かべて流れる水面の色を", "ゆっくり流れていくものの色"]
+  },
+  {
+    "catalogKey": "spring-13",
+    "name": "苗代の水面の色",
+    "colorHex": "#B6C9BE",
+    "seasonTags": ["spring"],
+    "weatherTags": ["cloudy"],
+    "poeticPhrases": ["空を映してぼんやり光る水の色を", "曇り空を映した田んぼの色"]
+  },
+  {
+    "catalogKey": "spring-14",
+    "name": "春霧の朝の色",
+    "colorHex": "#DCE3E0",
+    "seasonTags": ["spring"],
+    "weatherTags": ["fog"],
+    "poeticPhrases": ["まだ何も始まっていない朝の色を", "輪郭のはっきりしない、静かな色"]
+  },
+  {
+    "catalogKey": "spring-15",
+    "name": "うぐいす色の垣根",
+    "colorHex": "#8A9A5B",
+    "seasonTags": ["spring"],
+    "weatherTags": [],
+    "poeticPhrases": ["どこかで鳴いている声の色を", "垣根の向こうにひそむ緑"]
+  },
+  {
+    "catalogKey": "summer-01",
+    "name": "夏の入道雲の白",
+    "colorHex": "#FDFDF8",
+    "seasonTags": ["summer"],
+    "weatherTags": ["sunny"],
+    "poeticPhrases": ["空にもくもくと盛り上がる白を", "見上げた先にある、力強い白さ"]
+  },
+  {
+    "catalogKey": "summer-02",
+    "name": "麦わら帽子の色",
+    "colorHex": "#E6C87A",
+    "seasonTags": ["summer"],
+    "weatherTags": ["sunny"],
+    "poeticPhrases": ["日差しをよける、素朴な色を", "編み目の隙間から光がもれる色"]
+  },
+  {
+    "catalogKey": "summer-03",
+    "name": "夕立あとの水たまりの色",
+    "colorHex": "#5E7A8C",
+    "seasonTags": ["summer"],
+    "weatherTags": ["rain"],
+    "poeticPhrases": ["急に降った雨が残していった色を", "アスファルトに残る、少しの間だけの色"]
+  },
+  {
+    "catalogKey": "summer-04",
+    "name": "金魚鉢の水の色",
+    "colorHex": "#BFE3DD",
+    "seasonTags": ["summer"],
+    "weatherTags": [],
+    "poeticPhrases": ["ゆらゆらと揺れる、涼しげな色を", "小さな世界にたたえられた色"]
+  },
+  {
+    "catalogKey": "summer-05",
+    "name": "夜店の提灯の朱色",
+    "colorHex": "#D9522B",
+    "seasonTags": ["summer"],
+    "weatherTags": [],
+    "poeticPhrases": ["夜道をぽつぽつと照らす色を", "少し離れたところで揺れる灯りの色"]
+  },
+  {
+    "catalogKey": "summer-06",
+    "name": "蝉時雨の緑陰の色",
+    "colorHex": "#3F6B4A",
+    "seasonTags": ["summer"],
+    "weatherTags": ["sunny"],
+    "poeticPhrases": ["木陰に一歩入ったときの濃い緑を", "声に包まれるような深い色"]
+  },
+  {
+    "catalogKey": "summer-07",
+    "name": "入道雲の底の灰色",
+    "colorHex": "#8B8F92",
+    "seasonTags": ["summer"],
+    "weatherTags": ["thunder"],
+    "poeticPhrases": ["これから何か起こりそうな空の色を", "白い雲の下に潜む重たい色"]
+  },
+  {
+    "catalogKey": "summer-08",
+    "name": "夏霧に沈む海の色",
+    "colorHex": "#AFC4C7",
+    "seasonTags": ["summer"],
+    "weatherTags": ["fog"],
+    "poeticPhrases": ["水平線が見えなくなる日の色を", "音だけが聞こえてくる海の色"]
+  },
+  {
+    "catalogKey": "summer-09",
+    "name": "かき氷のシロップの色",
+    "colorHex": "#E8577A",
+    "seasonTags": ["summer"],
+    "weatherTags": [],
+    "poeticPhrases": ["ひんやりとした甘さの色を", "溶けていく前のいちばん鮮やかな色"]
+  },
+  {
+    "catalogKey": "summer-10",
+    "name": "打ち水した石畳の色",
+    "colorHex": "#7C8A87",
+    "seasonTags": ["summer"],
+    "weatherTags": [],
+    "poeticPhrases": ["涼を呼ぶために撒かれた水の跡の色を", "少しだけ湿った石の色"]
+  },
+  {
+    "catalogKey": "summer-11",
+    "name": "曇り空の下の緑",
+    "colorHex": "#5C7A5E",
+    "seasonTags": ["summer"],
+    "weatherTags": ["cloudy"],
+    "poeticPhrases": ["日差しがないぶん落ち着いて見える緑を", "光が控えめな日にだけ見える色"]
+  },
+  {
+    "catalogKey": "summer-12",
+    "name": "夕凪の水平線の色",
+    "colorHex": "#E8B96A",
+    "seasonTags": ["summer"],
+    "weatherTags": ["sunny"],
+    "poeticPhrases": ["風がやみ、静かになる時間の色を", "空と海の境目がとろける色"]
+  },
+  {
+    "catalogKey": "summer-13",
+    "name": "ひまわり畑の黄色",
+    "colorHex": "#F6C445",
+    "seasonTags": ["summer"],
+    "weatherTags": ["sunny"],
+    "poeticPhrases": ["まっすぐ空を向く花の色を", "見ているだけで元気になれそうな色"]
+  },
+  {
+    "catalogKey": "summer-14",
+    "name": "夏の夕立の匂いの色",
+    "colorHex": "#65788A",
+    "seasonTags": ["summer"],
+    "weatherTags": ["rain"],
+    "poeticPhrases": ["降り出す直前の空気の色を", "土の匂いが立ちのぼる瞬間の色"]
+  },
+  {
+    "catalogKey": "summer-15",
+    "name": "蚊取り線香の煙の色",
+    "colorHex": "#C9C2B4",
+    "seasonTags": ["summer"],
+    "weatherTags": [],
+    "poeticPhrases": ["ゆらゆらとのぼる、細い煙の色を", "縁側でぼんやり眺める夕方の色"]
+  },
+  {
+    "catalogKey": "autumn-01",
+    "name": "紅葉が始まる山の色",
+    "colorHex": "#C9683A",
+    "seasonTags": ["autumn"],
+    "weatherTags": ["sunny"],
+    "poeticPhrases": ["少しずつ色づいていく途中の色を", "緑と橙が入り混じる山の色"]
+  },
+  {
+    "catalogKey": "autumn-02",
+    "name": "稲穂が実る田んぼの色",
+    "colorHex": "#D9B655",
+    "seasonTags": ["autumn"],
+    "weatherTags": [],
+    "poeticPhrases": ["頭を垂れた稲の、実りの色を", "風に揺れる金色の波"]
+  },
+  {
+    "catalogKey": "autumn-03",
+    "name": "秋霧に霞む渓谷の色",
+    "colorHex": "#B0BCB6",
+    "seasonTags": ["autumn"],
+    "weatherTags": ["fog"],
+    "poeticPhrases": ["谷底から立ちのぼる白い色を", "音だけが響いてくる渓谷の色"]
+  },
+  {
+    "catalogKey": "autumn-04",
+    "name": "落ち葉だまりの色",
+    "colorHex": "#A6622F",
+    "seasonTags": ["autumn"],
+    "weatherTags": [],
+    "poeticPhrases": ["足元に積もった、乾いた色を", "踏むとかさりと音がする色"]
+  },
+  {
+    "catalogKey": "autumn-05",
+    "name": "秋雨に濡れた石段の色",
+    "colorHex": "#5A5C5B",
+    "seasonTags": ["autumn"],
+    "weatherTags": ["rain"],
+    "poeticPhrases": ["静かに降り続く雨に沈む色を", "苔むした石の、しっとりした色"]
+  },
+  {
+    "catalogKey": "autumn-06",
+    "name": "鈍色の空の色",
+    "colorHex": "#8C9096",
+    "seasonTags": ["autumn"],
+    "weatherTags": ["cloudy"],
+    "poeticPhrases": ["どんよりと厚みのある空の色を", "光が均一に広がる曇天の色"]
+  },
+  {
+    "catalogKey": "autumn-07",
+    "name": "柿の実の橙色",
+    "colorHex": "#E07A2E",
+    "seasonTags": ["autumn"],
+    "weatherTags": ["sunny"],
+    "poeticPhrases": ["軒先にぶら下がる、あたたかい色を", "熟れて重たくなった実の色"]
+  },
+  {
+    "catalogKey": "autumn-08",
+    "name": "銀杏並木の黄色",
+    "colorHex": "#E6B93D",
+    "seasonTags": ["autumn"],
+    "weatherTags": [],
+    "poeticPhrases": ["頭上から降ってくる黄色を", "並木道いっぱいに広がる色"]
+  },
+  {
+    "catalogKey": "autumn-09",
+    "name": "秋の夕焼けの色",
+    "colorHex": "#E0703F",
+    "seasonTags": ["autumn"],
+    "weatherTags": ["sunny"],
+    "poeticPhrases": ["空気が澄んで、より鮮やかに見える色を", "日が短くなった分、ふと目を引く色"]
+  },
+  {
+    "catalogKey": "autumn-10",
+    "name": "すすきの穂波の色",
+    "colorHex": "#D8CDA8",
+    "seasonTags": ["autumn"],
+    "weatherTags": [],
+    "poeticPhrases": ["風になびいて銀色に光る色を", "夕日を受けてほのかに輝く色"]
+  },
+  {
+    "catalogKey": "autumn-11",
+    "name": "秋雷が響く空の色",
+    "colorHex": "#6E7889",
+    "seasonTags": ["autumn"],
+    "weatherTags": ["thunder"],
+    "poeticPhrases": ["季節の変わり目に響く空の色を", "遠くで低く鳴る、少し不穏な色"]
+  },
+  {
+    "catalogKey": "autumn-12",
+    "name": "栗のいがの色",
+    "colorHex": "#6B5A3F",
+    "seasonTags": ["autumn"],
+    "weatherTags": [],
+    "poeticPhrases": ["とげとげした殻の中に隠れた色を", "地面に転がる、素朴な色"]
+  },
+  {
+    "catalogKey": "autumn-13",
+    "name": "十五夜の月明かりの色",
+    "colorHex": "#E9E2C8",
+    "seasonTags": ["autumn"],
+    "weatherTags": [],
+    "poeticPhrases": ["夜空にぽっかり浮かぶやわらかい色を", "静かに地面を照らす色"]
+  },
+  {
+    "catalogKey": "autumn-14",
+    "name": "秋霧の朝露の色",
+    "colorHex": "#CBD6D2",
+    "seasonTags": ["autumn"],
+    "weatherTags": ["fog"],
+    "poeticPhrases": ["葉先にたまった、透明に近い色を", "触れるとひやりとする朝の色"]
+  },
+  {
+    "catalogKey": "autumn-15",
+    "name": "紅葉の川面に映る色",
+    "colorHex": "#C46A4A",
+    "seasonTags": ["autumn"],
+    "weatherTags": ["cloudy"],
+    "poeticPhrases": ["水面にゆらめいて映る色を", "曇り空の下でも鮮やかな色"]
+  },
+  {
+    "catalogKey": "winter-01",
+    "name": "新雪の白",
+    "colorHex": "#F7F9FB",
+    "seasonTags": ["winter"],
+    "weatherTags": ["snow"],
+    "poeticPhrases": ["誰も踏んでいない、まっさらな白を", "音を吸い込むような静かな白さ"]
+  },
+  {
+    "catalogKey": "winter-02",
+    "name": "雪解けの土の色",
+    "colorHex": "#6E5E4E",
+    "seasonTags": ["winter"],
+    "weatherTags": ["snow"],
+    "poeticPhrases": ["白の下からのぞく、湿った色を", "少しずつ春が近づく地面の色"]
+  },
+  {
+    "catalogKey": "winter-03",
+    "name": "朝霧に沈む色",
+    "colorHex": "#D4DADD",
+    "seasonTags": ["winter"],
+    "weatherTags": ["fog"],
+    "poeticPhrases": ["息が白く見える朝の、淡い色を", "遠くの景色が消えていく色"]
+  },
+  {
+    "catalogKey": "winter-04",
+    "name": "息が白くなる朝の色",
+    "colorHex": "#DDE6EA",
+    "seasonTags": ["winter"],
+    "weatherTags": ["sunny"],
+    "poeticPhrases": ["冷えた空気に浮かぶ、かすかな色を", "吐いた息がすぐに消えていく色"]
+  },
+  {
+    "catalogKey": "winter-05",
+    "name": "こたつ布団の色",
+    "colorHex": "#B4432F",
+    "seasonTags": ["winter"],
+    "weatherTags": [],
+    "poeticPhrases": ["ぬくもりが染み込んだような色を", "動きたくなくなる、あたたかい色"]
+  },
+  {
+    "catalogKey": "winter-06",
+    "name": "冬の澄んだ夜空の色",
+    "colorHex": "#1F2B4A",
+    "seasonTags": ["winter"],
+    "weatherTags": [],
+    "poeticPhrases": ["星がくっきり見える夜の色を", "空気が澄みきった夜の深い色"]
+  },
+  {
+    "catalogKey": "winter-07",
+    "name": "雪囲いの藁の色",
+    "colorHex": "#C7B27C",
+    "seasonTags": ["winter"],
+    "weatherTags": ["snow"],
+    "poeticPhrases": ["雪から守るために巻かれた色を", "冬支度のあたたかい色"]
+  },
+  {
+    "catalogKey": "winter-08",
+    "name": "凍てついた水たまりの色",
+    "colorHex": "#B9CBD6",
+    "seasonTags": ["winter"],
+    "weatherTags": ["sunny"],
+    "poeticPhrases": ["表面だけが薄く固まった色を", "踏むとぱりっと音がしそうな色"]
+  },
+  {
+    "catalogKey": "winter-09",
+    "name": "冬曇りの街並みの色",
+    "colorHex": "#9AA0A6",
+    "seasonTags": ["winter"],
+    "weatherTags": ["cloudy"],
+    "poeticPhrases": ["どこか静まりかえった街の色を", "低く垂れこめた雲の下の色"]
+  },
+  {
+    "catalogKey": "winter-10",
+    "name": "マフラーの毛糸の色",
+    "colorHex": "#8B5E4E",
+    "seasonTags": ["winter"],
+    "weatherTags": [],
+    "poeticPhrases": ["首元をあたためる、やわらかい色を", "編み目のひとつひとつに宿る色"]
+  },
+  {
+    "catalogKey": "winter-11",
+    "name": "雪明かりの色",
+    "colorHex": "#E7EEF2",
+    "seasonTags": ["winter"],
+    "weatherTags": ["snow"],
+    "poeticPhrases": ["積もった雪がほのかに光る色を", "夜でも暗くなりきらない色"]
+  },
+  {
+    "catalogKey": "winter-12",
+    "name": "冬の夕暮れの紺色",
+    "colorHex": "#33456B",
+    "seasonTags": ["winter"],
+    "weatherTags": ["sunny"],
+    "poeticPhrases": ["日が落ちるのが早い季節の色を", "橙から紺へ変わる、その境目の色"]
+  },
+  {
+    "catalogKey": "winter-13",
+    "name": "霜柱が立つ畑の色",
+    "colorHex": "#C3CDCB",
+    "seasonTags": ["winter"],
+    "weatherTags": ["fog"],
+    "poeticPhrases": ["朝いちばんに踏むとざくりと崩れる色を", "冷え込んだ朝だけ現れる色"]
+  },
+  {
+    "catalogKey": "winter-14",
+    "name": "焚き火の炎の色",
+    "colorHex": "#E4772E",
+    "seasonTags": ["winter"],
+    "weatherTags": [],
+    "poeticPhrases": ["ぱちぱちと音を立てる、あたたかい色を", "手をかざしたくなる揺れる色"]
+  },
+  {
+    "catalogKey": "winter-15",
+    "name": "雷雲の底の色",
+    "colorHex": "#4E5766",
+    "seasonTags": ["winter"],
+    "weatherTags": ["thunder"],
+    "poeticPhrases": ["雪を呼ぶ前に鳴る、重たい空の色を", "日本海側の冬にだけ響く色"]
+  }
+]
