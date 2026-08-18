@@ -40,7 +40,16 @@ class _RecordScreenState extends ConsumerState<RecordScreen> {
 
   Future<void> _capture() async {
     final picker = ImagePicker();
-    final picked = await picker.pickImage(source: ImageSource.camera);
+    final XFile? picked;
+    try {
+      picked = await picker.pickImage(source: ImageSource.camera);
+    } catch (_) {
+      if (!mounted) return;
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('カメラを利用できませんでした。')),
+      );
+      return;
+    }
     if (picked == null) return;
 
     final file = File(picked.path);
